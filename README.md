@@ -2,8 +2,8 @@
 
 Aplicación de una sola página con andamiaje (scaffolding) de [Vue CLI](https://cli.vuejs.org/), que comprende el ecosistema de vue:
 
-- Vue Router
-- Vuex
+- [Vue Router](https://router.vuejs.org/)
+- [Vuex](https://vuex.vuejs.org/)
 
 En el cual se desarrolo componentes siguiendo lineamientos de [Material Design](https://material.io/components), los cuales son:
 
@@ -84,7 +84,7 @@ Como servicio de backend
 
 - [ ] Cambiar la libreria [ Survey.js](https://surveyjs.io/) por una [propia](https://github.com/fermelli/survey).
 - [ ] Refactorizar Componentes (Mixins).
-- [ ] Eliminar CSS repetitivo.
+- [ ] Eliminar CSS repetitivo o cambiar a un preprocesador.
 - [ ] Modularizar el estado (Vuex) y el usó de MapState, MapActions, etc.
 - [ ] Cambiar el Servicio de backend por una API REST en Laravel.
 - [ ] Autenticación de JWT.
@@ -92,7 +92,7 @@ Como servicio de backend
 
 ## Doc
 
-[Sistema de Evaluación de Desempeño Docente](https://drive.google.com/file/d/1yN8hU9gJJqwCpqakcfwLAsGpNW84m6qB/view?usp=sharing)
+[Sistema de Evaluación de Desempeño Docente](https://drive.google.com/file/d/1yN8hU9gJJqwCpqakcfwLAsGpNW84m6qB/view?usp=sharing, "PDF")
 
 ## Project setup
 
