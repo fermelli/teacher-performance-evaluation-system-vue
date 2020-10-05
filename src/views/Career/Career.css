@@ -1,0 +1,33 @@
+.row-list {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+
+.navigator {
+    margin-bottom: 10px;
+}
+
+.link {
+    text-decoration: none;
+    color: #000000;
+    padding: 5px;
+}
+
+.router-link-exact-active {
+    background: rgba(146, 143, 143, 0.1)
+}
+
+.link:hover:not(.router-link-exact-active) {
+    background: rgba(146, 143, 143, 0.1)
+}
+
+@media (max-width: 576px) {
+
+    .link,
+    .font {
+        font-size: 0.875rem;
+    }
+}

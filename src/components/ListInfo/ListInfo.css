@@ -1,0 +1,142 @@
+.list {
+    position: relative;
+    z-index: 4;
+    margin-bottom: 15px;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.list-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list-title {
+    margin: 0;
+    padding: 10px 0px;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.btn {
+    outline: none;
+    border: none;
+    border-radius: 50%;
+    background: none;
+}
+
+.btn-expand {
+    height: 42px;
+    width: 42px;
+    padding: 3px;
+    color: rgba(0, 0, 0, 0.5);
+    transition: background 0.3s ease-in-out;
+}
+
+.btn-expand:hover,
+.btn-expand:focus {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.material-icons {
+    font-size: 2.25rem;
+}
+
+.list-body {
+    max-height: 0;
+    overflow: hidden;
+}
+
+@media (min-width: 992px) {
+    .list-body {
+        height: 100%;
+        max-height: 600px;
+        overflow: auto;
+    }
+
+    .display {
+        display: none;
+    }
+}
+
+.list-body.expand {
+    animation-duration: 0.7s;
+    animation-fill-mode: both;
+    animation-name: expand;
+}
+
+@keyframes expand {
+    0% {
+        display: none;
+        max-height: 0;
+    }
+
+    100% {
+        display: block;
+        max-height: 600px;
+    }
+}
+
+.list-body.collapse {
+    animation-duration: 0.7s;
+    animation-fill-mode: both;
+    animation-name: collapse;
+}
+
+@keyframes collapse {
+    0% {
+        display: block;
+        max-height: 600px;
+    }
+
+    100% {
+        display: none;
+        max-height: 0;
+    }
+}
+
+.list-item {
+    padding: 8px 0px;
+}
+
+.list-item-title {
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+
+.list-item-content {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.btn-link {
+    position: relative;
+    z-index: 4;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background: none;
+    min-height: 36px;
+    min-width: 60px;
+    border-radius: 3px;
+    font-size: 1rem;
+    padding: 6px 10px;
+    margin-left: 5px;
+    font-weight: bold;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-bottom: 7px;
+
+    transition: background 0.3s ease-in-out;
+}
+
+.btn-link:hover,
+.btn-link:focus {
+    background: rgba(230, 230, 230, 0.39);
+}
+
+/* .btn-link:not(:last-child) {
+    margin-right: 7px;
+    margin-bottom: 7px;
+} */

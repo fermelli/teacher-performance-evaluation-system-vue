@@ -1,0 +1,125 @@
+.card-person {
+    position: relative;
+    z-index: 4;
+    margin: 15px 0px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.card-person:hover {
+    z-index: 8;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);
+    transition: box-shadow 0.4s ease-in-out;
+}
+
+.card-person-img {
+    height: 80px;
+    margin-bottom: 40px;
+    border: 0;
+    background: rgba(0, 0, 0, 0.2);
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-person-img img {
+    position: relative;
+    top: 40px;
+    left: calc(50% - 80px);
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background: white;
+}
+
+.card-person-title {
+    padding: 10px 15px;
+}
+
+.card-person-title h2 {
+    margin: 0;
+    font-weight: 200;
+    font-size: 1.25rem;
+}
+
+.card-person-title h3,
+.card-person-title h4 {
+    margin: 5px 0px;
+}
+
+.card-person-title h3 {
+    font-size: 1.5rem;
+}
+
+.card-person-title h4 {
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.card-person-actions {
+    padding: 15px;
+    border-top: 1px solid rgb(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    height: 50px;
+    width: 50px;
+    border: 0;
+    border-radius: 50%;
+    background: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn-actions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.material-icons {
+    font-size: 1.75rem;
+}
+
+.btn-delete {
+    color: rgb(219, 41, 41);
+}
+
+.btn-delete:hover {
+    background: rgba(219, 41, 41, 0.1);
+}
+
+.btn-delete:focus {
+    background: rgba(219, 41, 41, 0.2);
+}
+
+.btn-open-in-new {
+    color: rgb(28, 148, 28);
+}
+
+.btn-open-in-new:hover {
+    background: rgba(28, 148, 28, 0.1);
+}
+
+.btn-open-in-new:focus {
+    background: rgba(28, 148, 28, 0.2);
+}
+
+.btn-edit {
+    color: rgb(20, 48, 177);
+}
+
+.btn-edit:hover {
+    background: rgba(20, 49, 177, 0.1);
+}
+
+.btn-edit:focus {
+    background: rgba(20, 49, 177, 0.2);
+}

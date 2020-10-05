@@ -1,0 +1,33 @@
+.btn-collapse {
+    width: 100%;
+    background: #90CAF9;
+    padding: 10px;
+    border: 0;
+    border-radius: 3px;
+    min-height: 50px;
+    outline: none;
+    color: rgb(41, 40, 40);
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.btn-collapse:hover {
+    background: #42A5F5;
+}
+
+.btn-collapse:focus {
+    background: #BBDEFB;
+}
+
+h2 {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.md-24 {
+    font-size: 1.5rem;
+}

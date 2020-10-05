@@ -1,0 +1,15 @@
+.tooltip-custom {
+    position: absolute;
+    z-index: 8;
+    height: 30px;
+    min-width: 120px;
+    top: 51px;
+    background: rgb(107, 106, 106);
+    color: #FFFFFF;
+    padding: 0px 15px;
+    border-radius: 3px;
+    display: flex;
+    font-size: 0.85rem;
+    align-items: center;
+    justify-content: center;
+}

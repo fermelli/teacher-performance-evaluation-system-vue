@@ -1,0 +1,152 @@
+.card-evaluation-student {
+    position: relative;
+    z-index: 2;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin-bottom: 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+.card-evaluation-student:hover {
+    z-index: 4;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.card-head,
+.card-body {
+    padding: 15px;
+}
+
+.card-head {
+    padding-bottom: 8px;
+}
+
+.card-body {
+    padding-top: 8px;
+}
+
+.card-title {
+    margin: 5px 0px;
+    font-size: 1.125rem;
+}
+
+.card-subtitle {
+    margin: 2px 0px;
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+.container-title,
+.container-table {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-title {
+    height: 34px;
+    justify-content: space-between;
+}
+
+.card-list-item-title {
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+}
+
+.actions {
+    text-align: center;
+}
+
+.btn-open {
+    padding: 8px 10px;
+    border-radius: 3px;
+    color: #7B1FA2;
+    font-weight: bolder;
+}
+
+.btn-open:hover {
+    background: rgba(123, 31, 162, 0.2);
+}
+
+.btn-open:disabled {
+    cursor: not-allowed;
+}
+
+.btn-open:disabled:hover {
+    background: none;
+}
+
+.btn-open:disabled>.material-icons {
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.btn-collapse {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    padding: 3px;
+    transition: background 0.3s ease-in-out;
+}
+
+.btn-collapse:hover {
+    background: #eeeeee;
+}
+
+.container-table {
+    margin: 5px;
+    max-height: 0;
+    overflow: hidden;
+}
+
+.container-table.expand {
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    animation-name: expand;
+}
+
+@keyframes expand {
+    0% {
+        display: none;
+        max-height: 0;
+    }
+
+    100% {
+        display: block;
+        max-height: 600px;
+    }
+}
+
+.container-table.collapse {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-name: collapse;
+}
+
+@keyframes collapse {
+    0% {
+        display: block;
+        max-height: 600px;
+    }
+
+    100% {
+        display: none;
+        max-height: 0;
+    }
+}
+
+.table {
+    border-collapse: collapse;
+}
+
+.table tr th,
+.table tr td {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 5px;
+}

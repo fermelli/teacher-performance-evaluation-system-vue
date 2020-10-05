@@ -1,0 +1,21 @@
+.ship {
+    font-weight: bold;
+    border-radius: 50%;
+    background: rgb(54, 163, 235);
+    height: 20px;
+    width: 20px;
+    text-align: center;
+}
+
+.table {
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.table>thead>tr {
+    height: 60px;
+}
+
+.table>tbody>tr>td {
+    text-align: center;
+}

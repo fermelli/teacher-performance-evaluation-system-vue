@@ -1,0 +1,43 @@
+.btn-custom {
+    width: 60px;
+    height: 60px;
+    outline: none;
+    border: 0;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-route {
+    position: fixed;
+    right: 15px;
+    z-index: 12;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.8);
+    background: #1DE9B6;
+    color: #000000;
+}
+
+.btn-route:hover,
+.btn-route:focus {
+    background: #64FFDA;
+}
+
+.router-link-exact-active>.btn-route {
+    background: rgb(15, 133, 103);
+    box-shadow: none;
+    color: #FFFFFF;
+}
+
+.router-link-exact-active>.btn-route.btn-route:hover,
+.router-link-exact-active>.btn-route.btn-route:focus {
+    background: rgb(15, 133, 103);
+}
+
+
+.tooltip {
+    min-width: 130px;
+    top: calc(50% - 15px);
+    right: calc(100% + 5px);
+}

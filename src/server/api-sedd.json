@@ -1,0 +1,2749 @@
+{
+    "managements": {
+        "gest01": {
+            "id_eva": "eva01",
+            "value": 2019,
+            "is_active": true,
+            "turns": {
+                "tur1": {
+                    "turn": "Tarde",
+                    "periods": {
+                        "peri01": {
+                            "start_time": "14:00",
+                            "end_time": "14:45"
+                        },
+                        "peri02": {
+                            "start_time": "14:45",
+                            "end_time": "15:30"
+                        },
+                        "peri03": {
+                            "start_time": "15:30",
+                            "end_time": "16:15"
+                        },
+                        "peri04": {
+                            "start_time": "16:15",
+                            "end_time": "17:00"
+                        },
+                        "peri05": {
+                            "start_time": "17:00",
+                            "end_time": "17:45"
+                        },
+                        "peri06": {
+                            "start_time": "17:45",
+                            "end_time": "18:30"
+                        }
+                    }
+                },
+                "tur2": {
+                    "turn": "Noche",
+                    "periods": {
+                        "peri07": {
+                            "start_time": "18:30",
+                            "end_time": "19:10"
+                        },
+                        "peri08": {
+                            "start_time": "19:10",
+                            "end_time": "19:50"
+                        },
+                        "peri09": {
+                            "start_time": "19:50",
+                            "end_time": "20:30"
+                        },
+                        "peri10": {
+                            "start_time": "20:30",
+                            "end_time": "21:10"
+                        },
+                        "peri11": {
+                            "start_time": "21:10",
+                            "end_time": "21:50"
+                        },
+                        "peri12": {
+                            "start_time": "21:50",
+                            "end_time": "22:30"
+                        }
+                    }
+                }
+            },
+            "schedules": {
+                "sch01": {
+                    "id_peri": "peri01",
+                    "day_week": "Lunes"
+                },
+                "sch02": {
+                    "id_peri": "peri02",
+                    "day_week": "Lunes"
+                },
+                "sch03": {
+                    "id_peri": "peri03",
+                    "day_week": "Lunes"
+                },
+                "sch04": {
+                    "id_peri": "peri04",
+                    "day_week": "Lunes"
+                },
+                "sch05": {
+                    "id_peri": "peri05",
+                    "day_week": "Lunes"
+                },
+                "sch06": {
+                    "id_peri": "peri06",
+                    "day_week": "Lunes"
+                },
+                "sch07": {
+                    "id_peri": "peri07",
+                    "day_week": "Lunes"
+                },
+                "sch08": {
+                    "id_peri": "peri08",
+                    "day_week": "Lunes"
+                },
+                "sch09": {
+                    "id_peri": "peri09",
+                    "day_week": "Lunes"
+                },
+                "sch10": {
+                    "id_peri": "peri10",
+                    "day_week": "Lunes"
+                },
+                "sch11": {
+                    "id_peri": "peri11",
+                    "day_week": "Lunes"
+                },
+                "sch12": {
+                    "id_peri": "peri12",
+                    "day_week": "Lunes"
+                },
+                "sch13": {
+                    "id_peri": "peri01",
+                    "day_week": "Martes"
+                },
+                "sch14": {
+                    "id_peri": "peri02",
+                    "day_week": "Martes"
+                },
+                "sch15": {
+                    "id_peri": "peri03",
+                    "day_week": "Martes"
+                },
+                "sch16": {
+                    "id_peri": "peri04",
+                    "day_week": "Martes"
+                },
+                "sch17": {
+                    "id_peri": "peri05",
+                    "day_week": "Martes"
+                },
+                "sch18": {
+                    "id_peri": "peri06",
+                    "day_week": "Martes"
+                },
+                "sch19": {
+                    "id_peri": "peri07",
+                    "day_week": "Martes"
+                },
+                "sch20": {
+                    "id_peri": "peri08",
+                    "day_week": "Martes"
+                },
+                "sch21": {
+                    "id_peri": "peri09",
+                    "day_week": "Martes"
+                },
+                "sch22": {
+                    "id_peri": "peri10",
+                    "day_week": "Martes"
+                },
+                "sch23": {
+                    "id_peri": "peri11",
+                    "day_week": "Martes"
+                },
+                "sch24": {
+                    "id_peri": "peri12",
+                    "day_week": "Martes"
+                },
+                "sch25": {
+                    "id_peri": "peri01",
+                    "day_week": "Miércoles"
+                },
+                "sch26": {
+                    "id_peri": "peri02",
+                    "day_week": "Miércoles"
+                },
+                "sch27": {
+                    "id_peri": "peri03",
+                    "day_week": "Miércoles"
+                },
+                "sch28": {
+                    "id_peri": "peri04",
+                    "day_week": "Miércoles"
+                },
+                "sch29": {
+                    "id_peri": "peri05",
+                    "day_week": "Miércoles"
+                },
+                "sch30": {
+                    "id_peri": "peri06",
+                    "day_week": "Miércoles"
+                },
+                "sch31": {
+                    "id_peri": "peri07",
+                    "day_week": "Miércoles"
+                },
+                "sch32": {
+                    "id_peri": "peri08",
+                    "day_week": "Miércoles"
+                },
+                "sch33": {
+                    "id_peri": "peri09",
+                    "day_week": "Miércoles"
+                },
+                "sch34": {
+                    "id_peri": "peri10",
+                    "day_week": "Miércoles"
+                },
+                "sch35": {
+                    "id_peri": "peri11",
+                    "day_week": "Miércoles"
+                },
+                "sch36": {
+                    "id_peri": "peri12",
+                    "day_week": "Miércoles"
+                },
+                "sch37": {
+                    "id_peri": "peri01",
+                    "day_week": "Jueves"
+                },
+                "sch38": {
+                    "id_peri": "peri02",
+                    "day_week": "Jueves"
+                },
+                "sch39": {
+                    "id_peri": "peri03",
+                    "day_week": "Jueves"
+                },
+                "sch40": {
+                    "id_peri": "peri04",
+                    "day_week": "Jueves"
+                },
+                "sch41": {
+                    "id_peri": "peri05",
+                    "day_week": "Jueves"
+                },
+                "sch42": {
+                    "id_peri": "peri06",
+                    "day_week": "Jueves"
+                },
+                "sch43": {
+                    "id_peri": "peri07",
+                    "day_week": "Jueves"
+                },
+                "sch44": {
+                    "id_peri": "peri08",
+                    "day_week": "Jueves"
+                },
+                "sch45": {
+                    "id_peri": "peri09",
+                    "day_week": "Jueves"
+                },
+                "sch46": {
+                    "id_peri": "peri10",
+                    "day_week": "Jueves"
+                },
+                "sch47": {
+                    "id_peri": "peri11",
+                    "day_week": "Jueves"
+                },
+                "sch48": {
+                    "id_peri": "peri12",
+                    "day_week": "Jueves"
+                },
+                "sch49": {
+                    "id_peri": "peri01",
+                    "day_week": "Viernes"
+                },
+                "sch50": {
+                    "id_peri": "peri02",
+                    "day_week": "Viernes"
+                },
+                "sch51": {
+                    "id_peri": "peri03",
+                    "day_week": "Viernes"
+                },
+                "sch52": {
+                    "id_peri": "peri04",
+                    "day_week": "Viernes"
+                },
+                "sch53": {
+                    "id_peri": "peri05",
+                    "day_week": "Viernes"
+                },
+                "sch54": {
+                    "id_peri": "peri06",
+                    "day_week": "Viernes"
+                },
+                "sch55": {
+                    "id_peri": "peri07",
+                    "day_week": "Viernes"
+                },
+                "sch56": {
+                    "id_peri": "peri08",
+                    "day_week": "Viernes"
+                },
+                "sch57": {
+                    "id_peri": "peri09",
+                    "day_week": "Viernes"
+                },
+                "sch58": {
+                    "id_peri": "peri10",
+                    "day_week": "Viernes"
+                },
+                "sch59": {
+                    "id_peri": "peri11",
+                    "day_week": "Viernes"
+                },
+                "sch60": {
+                    "id_peri": "peri12",
+                    "day_week": "Viernes"
+                }
+            },
+            "careers": {
+                "car01": {
+                    "name": "Contaduría General",
+                    "code": "03-GNC",
+                    "academic_system": "Anualizado",
+                    "duration": 3,
+                    "courses": {
+                        "cur01": {
+                            "name": "Primero",
+                            "curriculum_mesh": "mal01",
+                            "parallels": [
+                                "par1",
+                                "par2",
+                                "par3",
+                                "par4"
+                            ],
+                            "subjects": [
+                                "mat01",
+                                "mat02",
+                                "mat03",
+                                "mat04",
+                                "mat05",
+                                "mat06",
+                                "mat07",
+                                "mat08"
+                            ]
+                        },
+                        "cur02": {
+                            "name": "Segundo",
+                            "curriculum_mesh": "mal02",
+                            "parallels": [
+                                "par5",
+                                "par6",
+                                "par7",
+                                "par8"
+                            ],
+                            "subjects": [
+                                "mat09",
+                                "mat10",
+                                "mat11",
+                                "mat12",
+                                "mat13",
+                                "mat14",
+                                "mat15"
+                            ]
+                        },
+                        "cur03": {
+                            "name": "Tercero",
+                            "curriculum_mesh": "mal03",
+                            "parallels": [
+                                "par9",
+                                "par10",
+                                "par11"
+                            ],
+                            "subjects": [
+                                "mat16",
+                                "mat17",
+                                "mat18",
+                                "mat19",
+                                "mat20",
+                                "mat21",
+                                "mat22",
+                                "mat23"
+                            ]
+                        }
+                    }
+                },
+                "car02": {
+                    "name": "Mercadotecnia",
+                    "code": "03-MER",
+                    "academic_system": "Anualizado",
+                    "duration": 3,
+                    "courses": {
+                        "cur04": {
+                            "name": "Primero",
+                            "curriculum_mesh": "mal04",
+                            "parallels": [
+                                "par12"
+                            ],
+                            "subjects": [
+                                "mat24"
+                            ]
+                        },
+                        "cur05": {
+                            "name": "Segundo",
+                            "curriculum_mesh": "mal05",
+                            "parallels": [
+                                "par13"
+                            ],
+                            "subjects": [
+                                "mat32"
+                            ]
+                        },
+                        "cur06": {
+                            "name": "Tercero",
+                            "curriculum_mesh": "mal06",
+                            "parallels": [
+                                "par14"
+                            ],
+                            "subjects": [
+                                "mat40"
+                            ]
+                        }
+                    }
+                }
+            },
+            "parallels": {
+                "par1": {
+                    "name": "A",
+                    "id_tur": "tur2",
+                    "students": [
+                        "est08",
+                        "est22",
+                        "est23"
+                    ]
+                },
+                "par2": {
+                    "name": "B",
+                    "id_tur": "tur2",
+                    "students": [
+                        "est09",
+                        "est24",
+                        "est25"
+                    ]
+                },
+                "par3": {
+                    "name": "C",
+                    "id_tur": "tur1",
+                    "students": [
+                        "est10",
+                        "est26",
+                        "est27"
+                    ]
+                },
+                "par4": {
+                    "name": "D",
+                    "id_tur": "tur1",
+                    "students": [
+                        "est11",
+                        "est28",
+                        "est29"
+                    ]
+                },
+                "par5": {
+                    "name": "A",
+                    "id_tur": "tur2",
+                    "students": [
+                        "est12",
+                        "est30",
+                        "est31"
+                    ]
+                },
+                "par6": {
+                    "name": "B",
+                    "id_tur": "tur2",
+                    "students": [
+                        "est13",
+                        "est32",
+                        "est33"
+                    ]
+                },
+                "par7": {
+                    "name": "C",
+                    "id_tur": "tur1",
+                    "students": [
+                        "est14",
+                        "est34",
+                        "est35"
+                    ]
+                },
+                "par8": {
+                    "name": "D",
+                    "id_tur": "tur1",
+                    "students": [
+                        "est15",
+                        "est36",
+                        "est37"
+                    ]
+                },
+                "par9": {
+                    "name": "A",
+                    "id_tur": "tur2",
+                    "students": [
+                        "est16",
+                        "est38",
+                        "est39"
+                    ]
+                },
+                "par10": {
+                    "name": "B",
+                    "id_tur": "tur2",
+                    "students": [
+                        "est17",
+                        "est40",
+                        "est41"
+                    ]
+                },
+                "par11": {
+                    "name": "C",
+                    "id_tur": "tur1",
+                    "students": [
+                        "est18",
+                        "est42",
+                        "est43"
+                    ]
+                },
+                "par12": {
+                    "name": "A",
+                    "id_tur": "tur2",
+                    "students": [
+                        "est19",
+                        "est44",
+                        "est45"
+                    ]
+                },
+                "par13": {
+                    "name": "A",
+                    "id_tur": "tur2",
+                    "students": [
+                        "est20",
+                        "est46",
+                        "est47"
+                    ]
+                },
+                "par14": {
+                    "name": "A",
+                    "id_tur": "tur2",
+                    "students": [
+                        "est21",
+                        "est48",
+                        "est49"
+                    ]
+                }
+            },
+            "subjects": {
+                "mat01": {
+                    "name": "Administración General",
+                    "code": "ADG-104",
+                    "teachers_impart": [
+                        "imp01",
+                        "imp02",
+                        "imp03"
+                    ]
+                },
+                "mat02": {
+                    "name": "Contabilidad I",
+                    "code": "CON-101",
+                    "teachers_impart": [
+                        "imp11",
+                        "imp12"
+                    ]
+                },
+                "mat03": {
+                    "name": "Documentos Comerciales y Mercantiles",
+                    "code": "DCM-107",
+                    "teachers_impart": [
+                        "imp13",
+                        "imp14"
+                    ]
+                },
+                "mat04": {
+                    "name": "Economía General Aplicada",
+                    "code": "EGA-106",
+                    "teachers_impart": [
+                        "imp15"
+                    ]
+                },
+                "mat05": {
+                    "name": "Estadística Aplicada",
+                    "code": "ESA-108",
+                    "teachers_impart": [
+                        "imp16",
+                        "imp17",
+                        "imp18",
+                        "imp19"
+                    ]
+                },
+                "mat06": {
+                    "name": "Informática Contable",
+                    "code": "ICO-103",
+                    "teachers_impart": [
+                        "imp20"
+                    ]
+                },
+                "mat07": {
+                    "name": "Legislación Laboral y Seguridad Social Aplicada",
+                    "code": "LSA-105",
+                    "teachers_impart": [
+                        "imp21"
+                    ]
+                },
+                "mat08": {
+                    "name": "Matemática Financiera",
+                    "code": "MAF-102",
+                    "teachers_impart": [
+                        "imp22"
+                    ]
+                },
+                "mat09": {
+                    "name": "Contabilidad Bancaria y Cooperativas",
+                    "code": "CBC-205",
+                    "teachers_impart": [
+                        "imp04",
+                        "imp05",
+                        "imp06"
+                    ]
+                },
+                "mat10": {
+                    "name": "Contabilidad de Seguros",
+                    "code": "CDS-204",
+                    "teachers_impart": [
+                        "imp23",
+                        "imp24",
+                        "imp25",
+                        "imp26"
+                    ]
+                },
+                "mat11": {
+                    "name": "Contabilidad de Costos I",
+                    "code": "COC-202",
+                    "teachers_impart": [
+                        "imp27",
+                        "imp28"
+                    ]
+                },
+                "mat12": {
+                    "name": "Contabilidad II",
+                    "code": "CON-201",
+                    "teachers_impart": [
+                        "imp29",
+                        "imp30"
+                    ]
+                },
+                "mat13": {
+                    "name": "Contabilidad de Sociedades",
+                    "code": "COS-203",
+                    "teachers_impart": [
+                        "imp31",
+                        "imp32"
+                    ]
+                },
+                "mat14": {
+                    "name": "Investigación Aplicada y Emprendimiento",
+                    "code": "IAE-206",
+                    "teachers_impart": [
+                        "imp33"
+                    ]
+                },
+                "mat15": {
+                    "name": "Sistema Tributario",
+                    "code": "SIT-207",
+                    "teachers_impart": [
+                        "imp34"
+                    ]
+                },
+                "mat16": {
+                    "name": "Análisis e interpretación de Estados Financieros",
+                    "code": "AEF-307",
+                    "teachers_impart": [
+                        "imp07"
+                    ]
+                },
+                "mat17": {
+                    "name": "Contabilidad Extractiva (Minera, Petrolera y Forestal)",
+                    "code": "CEP-304",
+                    "teachers_impart": [
+                        "imp35",
+                        "imp36",
+                        "imp37"
+                    ]
+                },
+                "mat18": {
+                    "name": "Contabilidad Agropecuaria",
+                    "code": "COA-301",
+                    "teachers_impart": [
+                        "imp38"
+                    ]
+                },
+                "mat19": {
+                    "name": "Contabilidad de Costos II",
+                    "code": "COC-302",
+                    "teachers_impart": [
+                        "imp39",
+                        "imp40",
+                        "imp41"
+                    ]
+                },
+                "mat20": {
+                    "name": "Contabilidad Gubernamental",
+                    "code": "COG-303",
+                    "teachers_impart": [
+                        "imp42"
+                    ]
+                },
+                "mat21": {
+                    "name": "Contabilidad de Servicios (Construcción, Hoteleria y Transporte)",
+                    "code": "CSH-305",
+                    "teachers_impart": [
+                        "imp43"
+                    ]
+                },
+                "mat22": {
+                    "name": "Gabinete Contable Informático",
+                    "code": "GCI-306",
+                    "teachers_impart": [
+                        "imp44",
+                        "imp45"
+                    ]
+                },
+                "mat23": {
+                    "name": "Taller de Modalidad de Graduación",
+                    "code": "TMG-308",
+                    "teachers_impart": [
+                        "imp46",
+                        "imp47"
+                    ]
+                },
+                "mat24": {
+                    "name": "Análisis Económico y Contabilidad Aplicada a la Mercadotecnia",
+                    "code": "AEC-106",
+                    "teachers_impart": [
+                        "imp08"
+                    ]
+                },
+                "mat32": {
+                    "name": "Determinación de Costos para la Fijación de Precios",
+                    "code": "DCP-202",
+                    "teachers_impart": [
+                        "imp09"
+                    ]
+                },
+                "mat40": {
+                    "name": "Análisis de la Competencia y Técnicas de Negociación",
+                    "code": "ACN-308",
+                    "teachers_impart": [
+                        "imp10"
+                    ]
+                }
+            },
+            "teachers_impart": {
+                "imp01": {
+                    "id_doc": "doc01",
+                    "parallels_impart": [{
+                        "id_par": "par1",
+                        "schedules": [
+                            "sch11",
+                            "sch12",
+                            "sch19",
+                            "sch20"
+                        ]
+                    }]
+                },
+                "imp02": {
+                    "id_doc": "doc02",
+                    "parallels_impart": [{
+                        "id_par": "par2",
+                        "schedules": [
+                            "sch11",
+                            "sch12",
+                            "sch35",
+                            "sch36"
+                        ]
+                    }]
+                },
+                "imp03": {
+                    "id_doc": "doc03",
+                    "parallels_impart": [{
+                            "id_par": "par3",
+                            "schedules": [
+                                "sch05",
+                                "sch06",
+                                "sch29",
+                                "sch30"
+                            ]
+                        },
+                        {
+                            "id_par": "par4",
+                            "schedules": [
+                                "sch13",
+                                "sch14",
+                                "sch49",
+                                "sch50"
+                            ]
+                        }
+                    ]
+                },
+                "imp04": {
+                    "id_doc": "doc04",
+                    "parallels_impart": [{
+                            "id_par": "par5",
+                            "schedules": [
+                                "sch23",
+                                "sch24",
+                                "sch47",
+                                "sch48"
+                            ]
+                        },
+                        {
+                            "id_par": "par6",
+                            "schedules": [
+                                "sch45",
+                                "sch46",
+                                "sch59",
+                                "sch60"
+                            ]
+                        }
+                    ]
+                },
+                "imp05": {
+                    "id_doc": "doc05",
+                    "parallels_impart": [{
+                        "id_par": "par7",
+                        "schedules": [
+                            "sch05",
+                            "sch06",
+                            "sch41",
+                            "sch42"
+                        ]
+                    }]
+                },
+                "imp06": {
+                    "id_doc": "doc06",
+                    "parallels_impart": [{
+                        "id_par": "par8",
+                        "schedules": [
+                            "sch25",
+                            "sch26",
+                            "sch51",
+                            "sch52"
+                        ]
+                    }]
+                },
+                "imp07": {
+                    "id_doc": "doc07",
+                    "parallels_impart": [{
+                            "id_par": "par9",
+                            "schedules": [
+                                "sch43",
+                                "sch44",
+                                "sch45",
+                                "sch46"
+                            ]
+                        },
+                        {
+                            "id_par": "par10",
+                            "schedules": [
+                                "sch23",
+                                "sch24",
+                                "sch47",
+                                "sch48"
+                            ]
+                        },
+                        {
+                            "id_par": "par11",
+                            "schedules": [
+                                "sch57",
+                                "sch58",
+                                "sch59",
+                                "sch60"
+                            ]
+                        }
+                    ]
+                },
+                "imp08": {
+                    "id_doc": "doc08",
+                    "parallels_impart": [{
+                        "id_par": "par12",
+                        "schedules": [
+                            "sch23",
+                            "sch24",
+                            "sch31",
+                            "sch32"
+                        ]
+                    }]
+                },
+                "imp09": {
+                    "id_doc": "doc09",
+                    "parallels_impart": [{
+                        "id_par": "par13",
+                        "schedules": [
+                            "sch47",
+                            "sch48",
+                            "sch59",
+                            "sch60"
+                        ]
+                    }]
+                },
+                "imp10": {
+                    "id_doc": "doc03",
+                    "parallels_impart": [{
+                        "id_par": "par14",
+                        "schedules": [
+                            "sch31",
+                            "sch32"
+                        ]
+                    }]
+                },
+                "imp11": {
+                    "id_doc": "doc10",
+                    "parallels_impart": [{
+                            "id_par": "par1",
+                            "schedules": [
+                                "sch23",
+                                "sch24",
+                                "sch43",
+                                "sch44",
+                                "sch45",
+                                "sch46",
+                                "sch55",
+                                "sch56"
+                            ]
+                        },
+                        {
+                            "id_par": "par2",
+                            "schedules": [
+                                "sch07",
+                                "sch08",
+                                "sch47",
+                                "sch48",
+                                "sch57",
+                                "sch58",
+                                "sch59",
+                                "sch60"
+                            ]
+                        }
+                    ]
+                },
+                "imp12": {
+                    "id_doc": "doc11",
+                    "parallels_impart": [{
+                            "id_par": "par3",
+                            "schedules": [
+                                "sch25",
+                                "sch26",
+                                "sch27",
+                                "sch28",
+                                "sch49",
+                                "sch50",
+                                "sch51",
+                                "sch52"
+                            ]
+                        },
+                        {
+                            "id_par": "par4",
+                            "schedules": [
+                                "sch03",
+                                "sch04",
+                                "sch05",
+                                "sch06",
+                                "sch37",
+                                "sch38",
+                                "sch39",
+                                "sch40"
+                            ]
+                        }
+                    ]
+                },
+                "imp13": {
+                    "id_doc": "doc12",
+                    "parallels_impart": [{
+                        "id_par": "par1",
+                        "schedules": [
+                            "sch35",
+                            "sch36"
+                        ]
+                    }]
+                },
+                "imp14": {
+                    "id_doc": "doc13",
+                    "parallels_impart": [{
+                            "id_par": "par2",
+                            "schedules": [
+                                "sch55",
+                                "sch56"
+                            ]
+                        },
+                        {
+                            "id_par": "par3",
+                            "schedules": [
+                                "sch54",
+                                "sch55"
+                            ]
+                        },
+                        {
+                            "id_par": "par4",
+                            "schedules": [
+                                "sch52",
+                                "sch53"
+                            ]
+                        }
+                    ]
+                },
+                "imp15": {
+                    "id_doc": "doc03",
+                    "parallels_impart": [{
+                            "id_par": "par1",
+                            "schedules": [
+                                "sch21",
+                                "sch22",
+                                "sch33",
+                                "sch34"
+                            ]
+                        },
+                        {
+                            "id_par": "par2",
+                            "schedules": [
+                                "sch31",
+                                "sch32",
+                                "sch43",
+                                "sch44"
+                            ]
+                        },
+                        {
+                            "id_par": "par3",
+                            "schedules": [
+                                "sch03",
+                                "sch04",
+                                "sch17",
+                                "sch18"
+                            ]
+                        },
+                        {
+                            "id_par": "par4",
+                            "schedules": [
+                                "sch47",
+                                "sch48",
+                                "sch55",
+                                "sch56"
+                            ]
+                        }
+                    ]
+                },
+                "imp16": {
+                    "id_doc": "doc14",
+                    "parallels_impart": [{
+                        "id_par": "par1",
+                        "schedules": [
+                            "sch59",
+                            "sch60"
+                        ]
+                    }]
+                },
+                "imp17": {
+                    "id_doc": "doc15",
+                    "parallels_impart": [{
+                        "id_par": "par2",
+                        "schedules": [
+                            "sch09",
+                            "sch10"
+                        ]
+                    }]
+                },
+                "imp18": {
+                    "id_doc": "doc16",
+                    "parallels_impart": [{
+                        "id_par": "par3",
+                        "schedules": [
+                            "sch01",
+                            "sch02"
+                        ]
+                    }]
+                },
+                "imp19": {
+                    "id_doc": "doc17",
+                    "parallels_impart": [{
+                        "id_par": "par4",
+                        "schedules": [
+                            "sch53",
+                            "sch54"
+                        ]
+                    }]
+                },
+                "imp20": {
+                    "id_doc": "doc18",
+                    "parallels_impart": [{
+                            "id_par": "par1",
+                            "schedules": [
+                                "sch07",
+                                "sch08",
+                                "sch09",
+                                "sch10"
+                            ]
+                        },
+                        {
+                            "id_par": "par2",
+                            "schedules": [
+                                "sch21",
+                                "sch22",
+                                "sch23",
+                                "sch24"
+                            ]
+                        },
+                        {
+                            "id_par": "par3",
+                            "schedules": [
+                                "sch39",
+                                "sch40",
+                                "sch41",
+                                "sch42"
+                            ]
+                        },
+                        {
+                            "id_par": "par4",
+                            "schedules": [
+                                "sch25",
+                                "sch26",
+                                "sch27",
+                                "sch28"
+                            ]
+                        }
+                    ]
+                },
+                "imp21": {
+                    "id_doc": "doc13",
+                    "parallels_impart": [{
+                            "id_par": "par1",
+                            "schedules": [
+                                "sch57",
+                                "sch58"
+                            ]
+                        },
+                        {
+                            "id_par": "par2",
+                            "schedules": [
+                                "sch31",
+                                "sch32"
+                            ]
+                        },
+                        {
+                            "id_par": "par3",
+                            "schedules": [
+                                "sch37",
+                                "sch38"
+                            ]
+                        },
+                        {
+                            "id_par": "par4",
+                            "schedules": [
+                                "sch15",
+                                "sch16"
+                            ]
+                        }
+                    ]
+                },
+                "imp22": {
+                    "id_doc": "doc19",
+                    "parallels_impart": [{
+                            "id_par": "par1",
+                            "schedules": [
+                                "sch31",
+                                "sch32",
+                                "sch47",
+                                "sch48"
+                            ]
+                        },
+                        {
+                            "id_par": "par2",
+                            "schedules": [
+                                "sch33",
+                                "sch34",
+                                "sch45",
+                                "sch46"
+                            ]
+                        },
+                        {
+                            "id_par": "par3",
+                            "schedules": [
+                                "sch13",
+                                "sch14",
+                                "sch15",
+                                "sch16"
+                            ]
+                        },
+                        {
+                            "id_par": "par4",
+                            "schedules": [
+                                "sch17",
+                                "sch18",
+                                "sch29",
+                                "sch30"
+                            ]
+                        }
+                    ]
+                },
+                "imp23": {
+                    "id_doc": "doc11",
+                    "parallels_impart": [{
+                        "id_par": "par5",
+                        "schedules": [
+                            "sch31",
+                            "sch32"
+                        ]
+                    }]
+                },
+                "imp24": {
+                    "id_doc": "doc20",
+                    "parallels_impart": [{
+                        "id_par": "par6",
+                        "schedules": [
+                            "sch33",
+                            "sch34"
+                        ]
+                    }]
+                },
+                "imp25": {
+                    "id_doc": "doc21",
+                    "parallels_impart": [{
+                        "id_par": "par7",
+                        "schedules": [
+                            "sch03",
+                            "sch04"
+                        ]
+                    }]
+                },
+                "imp26": {
+                    "id_doc": "doc05",
+                    "parallels_impart": [{
+                        "id_par": "par8",
+                        "schedules": [
+                            "sch03",
+                            "sch04"
+                        ]
+                    }]
+                },
+                "imp27": {
+                    "id_doc": "doc22",
+                    "parallels_impart": [{
+                            "id_par": "par5",
+                            "schedules": [
+                                "sch07",
+                                "sch08",
+                                "sch33",
+                                "sch34",
+                                "sch35",
+                                "sch36"
+                            ]
+                        },
+                        {
+                            "id_par": "par6",
+                            "schedules": [
+                                "sch19",
+                                "sch20",
+                                "sch21",
+                                "sch22",
+                                "sch31",
+                                "sch32"
+                            ]
+                        },
+                        {
+                            "id_par": "par8",
+                            "schedules": [
+                                "sch17",
+                                "sch18",
+                                "sch29",
+                                "sch30",
+                                "sch41",
+                                "sch42"
+                            ]
+                        }
+                    ]
+                },
+                "imp28": {
+                    "id_doc": "doc23",
+                    "parallels_impart": [{
+                        "id_par": "par7",
+                        "schedules": [
+                            "sch39",
+                            "sch40",
+                            "sch51",
+                            "sch52",
+                            "sch53",
+                            "sch54"
+                        ]
+                    }]
+                },
+                "imp29": {
+                    "id_doc": "doc24",
+                    "parallels_impart": [{
+                            "id_par": "par5",
+                            "schedules": [
+                                "sch43",
+                                "sch44",
+                                "sch45",
+                                "sch46",
+                                "sch59",
+                                "sch60"
+                            ]
+                        },
+                        {
+                            "id_par": "par6",
+                            "schedules": [
+                                "sch47",
+                                "sch48",
+                                "sch57",
+                                "sch58",
+                                "sch59",
+                                "sch60"
+                            ]
+                        },
+                        {
+                            "id_par": "par7",
+                            "schedules": [
+                                "sch01",
+                                "sch02",
+                                "sch25",
+                                "sch26",
+                                "sch27",
+                                "sch28"
+                            ]
+                        }
+                    ]
+                },
+                "imp30": {
+                    "id_doc": "doc25",
+                    "parallels_impart": [{
+                        "id_par": "par8",
+                        "schedules": [
+                            "sch13",
+                            "sch14",
+                            "sch15",
+                            "sch16",
+                            "sch37",
+                            "sch38"
+                        ]
+                    }]
+                },
+                "imp31": {
+                    "id_doc": "doc26",
+                    "parallels_impart": [{
+                            "id_par": "par5",
+                            "schedules": [
+                                "sch09",
+                                "sch10",
+                                "sch21",
+                                "sch22"
+                            ]
+                        },
+                        {
+                            "id_par": "par6",
+                            "schedules": [
+                                "sch11",
+                                "sch12",
+                                "sch23",
+                                "sch24"
+                            ]
+                        }
+                    ]
+                },
+                "imp32": {
+                    "id_doc": "doc20",
+                    "parallels_impart": [{
+                            "id_par": "par7",
+                            "schedules": [
+                                "sch37",
+                                "sch38",
+                                "sch49",
+                                "sch50"
+                            ]
+                        },
+                        {
+                            "id_par": "par8",
+                            "schedules": [
+                                "sch39",
+                                "sch40",
+                                "sch53",
+                                "sch54"
+                            ]
+                        }
+                    ]
+                },
+                "imp33": {
+                    "id_doc": "doc17",
+                    "parallels_impart": [{
+                            "id_par": "par5",
+                            "schedules": [
+                                "sch55",
+                                "sch56",
+                                "sch57",
+                                "sch58"
+                            ]
+                        },
+                        {
+                            "id_par": "par6",
+                            "schedules": [
+                                "sch07",
+                                "sch08",
+                                "sch35",
+                                "sch36"
+                            ]
+                        },
+                        {
+                            "id_par": "par7",
+                            "schedules": [
+                                "sch13",
+                                "sch14",
+                                "sch29",
+                                "sch30"
+                            ]
+                        },
+                        {
+                            "id_par": "par8",
+                            "schedules": [
+                                "sch05",
+                                "sch06",
+                                "sch27",
+                                "sch28"
+                            ]
+                        }
+                    ]
+                },
+                "imp34": {
+                    "id_doc": "doc21",
+                    "parallels_impart": [{
+                            "id_par": "par5",
+                            "schedules": [
+                                "sch11",
+                                "sch12",
+                                "sch19",
+                                "sch20"
+                            ]
+                        },
+                        {
+                            "id_par": "par6",
+                            "schedules": [
+                                "sch09",
+                                "sch10",
+                                "sch43",
+                                "sch44"
+                            ]
+                        },
+                        {
+                            "id_par": "par7",
+                            "schedules": [
+                                "sch15",
+                                "sch16",
+                                "sch17",
+                                "sch18"
+                            ]
+                        },
+                        {
+                            "id_par": "par8",
+                            "schedules": [
+                                "sch01",
+                                "sch02",
+                                "sch49",
+                                "sch50"
+                            ]
+                        }
+                    ]
+                },
+                "imp35": {
+                    "id_doc": "doc04",
+                    "parallels_impart": [{
+                        "id_par": "par9",
+                        "schedules": [
+                            "sch19",
+                            "sch20"
+                        ]
+                    }]
+                },
+                "imp36": {
+                    "id_doc": "doc03",
+                    "parallels_impart": [{
+                        "id_par": "par10",
+                        "schedules": [
+                            "sch31",
+                            "sch32"
+                        ]
+                    }]
+                },
+                "imp37": {
+                    "id_doc": "doc27",
+                    "parallels_impart": [{
+                        "id_par": "par11",
+                        "schedules": [
+                            "sch41",
+                            "sch42"
+                        ]
+                    }]
+                },
+                "imp38": {
+                    "id_doc": "doc06",
+                    "parallels_impart": [{
+                            "id_par": "par9",
+                            "schedules": [
+                                "sch21",
+                                "sch22",
+                                "sch23",
+                                "sch24"
+                            ]
+                        },
+                        {
+                            "id_par": "par10",
+                            "schedules": [
+                                "sch43",
+                                "sch44",
+                                "sch45",
+                                "sch46"
+                            ]
+                        },
+                        {
+                            "id_par": "par11",
+                            "schedules": [
+                                "sch27",
+                                "sch28",
+                                "sch49",
+                                "sch50"
+                            ]
+                        }
+                    ]
+                },
+                "imp39": {
+                    "id_doc": "doc20",
+                    "parallels_impart": [{
+                        "id_par": "par9",
+                        "schedules": [
+                            "sch47",
+                            "sch48",
+                            "sch59",
+                            "sch60"
+                        ]
+                    }]
+                },
+                "imp40": {
+                    "id_doc": "doc27",
+                    "parallels_impart": [{
+                        "id_par": "par10",
+                        "schedules": [
+                            "sch33",
+                            "sch34",
+                            "sch55",
+                            "sch56"
+                        ]
+                    }]
+                },
+                "imp41": {
+                    "id_doc": "doc18",
+                    "parallels_impart": [{
+                        "id_par": "par11",
+                        "schedules": [
+                            "sch29",
+                            "sch30",
+                            "sch37",
+                            "sch38"
+                        ]
+                    }]
+                },
+                "imp42": {
+                    "id_doc": "doc23",
+                    "parallels_impart": [{
+                            "id_par": "par9",
+                            "schedules": [
+                                "sch09",
+                                "sch10",
+                                "sch11",
+                                "sch12"
+                            ]
+                        },
+                        {
+                            "id_par": "par10",
+                            "schedules": [
+                                "sch07",
+                                "sch08",
+                                "sch19",
+                                "sch20"
+                            ]
+                        },
+                        {
+                            "id_par": "par11",
+                            "schedules": [
+                                "sch15",
+                                "sch16",
+                                "sch17",
+                                "sch18"
+                            ]
+                        }
+                    ]
+                },
+                "imp43": {
+                    "id_doc": "doc25",
+                    "parallels_impart": [{
+                            "id_par": "par9",
+                            "schedules": [
+                                "sch07",
+                                "sch08",
+                                "sch31",
+                                "sch32"
+                            ]
+                        },
+                        {
+                            "id_par": "par10",
+                            "schedules": [
+                                "sch09",
+                                "sch10",
+                                "sch11",
+                                "sch12"
+                            ]
+                        },
+                        {
+                            "id_par": "par11",
+                            "schedules": [
+                                "sch25",
+                                "sch26",
+                                "sch39",
+                                "sch40"
+                            ]
+                        }
+                    ]
+                },
+                "imp44": {
+                    "id_doc": "doc04",
+                    "parallels_impart": [{
+                            "id_par": "par9",
+                            "schedules": [
+                                "sch55",
+                                "sch56",
+                                "sch57",
+                                "sch58"
+                            ]
+                        },
+                        {
+                            "id_par": "par10",
+                            "schedules": [
+                                "sch21",
+                                "sch22",
+                                "sch35",
+                                "sch36"
+                            ]
+                        }
+                    ]
+                },
+                "imp45": {
+                    "id_doc": "doc10",
+                    "parallels_impart": [{
+                        "id_par": "par11",
+                        "schedules": [
+                            "sch03",
+                            "sch04",
+                            "sch05",
+                            "sch06"
+                        ]
+                    }]
+                },
+                "imp46": {
+                    "id_doc": "doc26",
+                    "parallels_impart": [{
+                            "id_par": "par9",
+                            "schedules": [
+                                "sch33",
+                                "sch34",
+                                "sch35",
+                                "sch36"
+                            ]
+                        },
+                        {
+                            "id_par": "par10",
+                            "schedules": [
+                                "sch57",
+                                "sch58",
+                                "sch59",
+                                "sch60"
+                            ]
+                        }
+                    ]
+                },
+                "imp47": {
+                    "id_doc": "doc20",
+                    "parallels_impart": [{
+                        "id_par": "par11",
+                        "schedules": [
+                            "sch01",
+                            "sch02",
+                            "sch13",
+                            "sch14"
+                        ]
+                    }]
+                }
+            },
+            "evaluation_results": {
+
+            },
+            "evaluations_resolved": {
+                
+            }
+        }
+    },
+    "people": {
+        "per00001": {
+            "ci": "908617797",
+            "names": "Luis Fernando",
+            "paternal_surname": "Salgado",
+            "maternal_surname": "Miguez",
+            "date_of_birth": "1993-07-27",
+            "gender": "Masculino"
+        },
+        "per00002": {
+            "ci": "715139936",
+            "names": "Juana María",
+            "paternal_surname": "Lopez",
+            "maternal_surname": "Aguilar",
+            "date_of_birth": "1972-05-28",
+            "gender": "Femenino"
+        },
+        "per00003": {
+            "ci": "326031610",
+            "names": "Saúl Lizandro",
+            "paternal_surname": "Madrid",
+            "maternal_surname": "Rodriguez",
+            "date_of_birth": "1983-11-01",
+            "gender": "Masculino"
+        },
+        "per00004": {
+            "ci": "673181460",
+            "names": "Eveline",
+            "paternal_surname": "Herrera",
+            "maternal_surname": "Murillo",
+            "date_of_birth": "1981-11-16",
+            "gender": "Femenino"
+        },
+        "per00005": {
+            "ci": "957860888",
+            "names": "Abel Miguel",
+            "paternal_surname": "Vargas",
+            "maternal_surname": "Carrasco",
+            "date_of_birth": "1995-10-20",
+            "gender": "Masculino"
+        },
+        "per00006": {
+            "ci": "868774749",
+            "names": "Florencia Laura",
+            "paternal_surname": "Hernandez",
+            "maternal_surname": "Reynoso",
+            "date_of_birth": "1970-03-16",
+            "gender": "Femenino"
+        },
+        "per00007": {
+            "ci": "419149278",
+            "names": "Adalberto Guido",
+            "paternal_surname": "Antequera",
+            "maternal_surname": "Ponce",
+            "date_of_birth": "1973-05-15",
+            "gender": "Masculino"
+        },
+        "per00008": {
+            "ci": "952878824",
+            "names": "Adalina Reyna",
+            "paternal_surname": "Laime",
+            "maternal_surname": "Mamani",
+            "date_of_birth": "1995-05-28",
+            "gender": "Femenino"
+        },
+        "per00009": {
+            "ci": "496853346",
+            "names": "Raúl Gabriel",
+            "paternal_surname": "Fernandez",
+            "maternal_surname": "Solares",
+            "date_of_birth": "1970-11-07",
+            "gender": "Masculino"
+        },
+        "per00010": {
+            "ci": "253260252",
+            "names": "Lucas Paolo",
+            "paternal_surname": "Garcia",
+            "maternal_surname": "Cruz",
+            "date_of_birth": "1972-02-03",
+            "gender": "Masculino"
+        },
+        "per00011": {
+            "ci": "102046408",
+            "names": "Luis Rolando",
+            "paternal_surname": "Oropeza",
+            "maternal_surname": "Romano",
+            "date_of_birth": "1970-12-11",
+            "gender": "Masculino"
+        },
+        "per00012": {
+            "ci": "703220331",
+            "names": "Vladimir Kevin",
+            "paternal_surname": "Aranjuez",
+            "maternal_surname": "Arizaga",
+            "date_of_birth": "1982-09-21",
+            "gender": "Masculino"
+        },
+        "per00013": {
+            "ci": "474932723",
+            "names": "Helen",
+            "paternal_surname": "Condori",
+            "maternal_surname": "Beltrán",
+            "date_of_birth": "1994-12-16",
+            "gender": "Femenino"
+        },
+        "per00014": {
+            "ci": "570097383",
+            "names": "Teodoro Juan",
+            "paternal_surname": "Millares",
+            "maternal_surname": "Cusi",
+            "date_of_birth": "1995-11-22",
+            "gender": "Masculino"
+        },
+        "per00015": {
+            "ci": "299160990",
+            "names": "Eric Jorge",
+            "paternal_surname": "Oropeza",
+            "maternal_surname": "Cervantez",
+            "date_of_birth": "1981-03-27",
+            "gender": "Masculino"
+        },
+        "per00016": {
+            "ci": "328750909",
+            "names": "David Luis",
+            "paternal_surname": "Caceres",
+            "maternal_surname": "Rodriguez",
+            "date_of_birth": "1975-05-25",
+            "gender": "Masculino"
+        },
+        "per00017": {
+            "ci": "784484200",
+            "names": "Horacio Kevin",
+            "paternal_surname": "Barriga",
+            "maternal_surname": "Soliz",
+            "date_of_birth": "2000-06-18",
+            "gender": "Masculino"
+        },
+        "per00018": {
+            "ci": "763092210",
+            "names": "Erlinda Mabel",
+            "paternal_surname": "León",
+            "maternal_surname": "Dávalos",
+            "date_of_birth": "1980-06-23",
+            "gender": "Femenino"
+        },
+        "per00019": {
+            "ci": "705225018",
+            "names": "Ariel Miguel",
+            "paternal_surname": "Tamales",
+            "maternal_surname": "Fonseca",
+            "date_of_birth": "1983-09-19",
+            "gender": "Masculino"
+        },
+        "per00020": {
+            "ci": "210140525",
+            "names": "Ernesto Gabriel",
+            "paternal_surname": "Tito",
+            "maternal_surname": "Solares",
+            "date_of_birth": "1993-12-23",
+            "gender": "Masculino"
+        },
+        "per00021": {
+            "ci": "763013316",
+            "names": "Manuela",
+            "paternal_surname": "Nina",
+            "maternal_surname": "Aguilar",
+            "date_of_birth": "1989-10-18",
+            "gender": "Femenino"
+        },
+        "per00022": {
+            "ci": "493397749",
+            "names": "Elena Teresa",
+            "paternal_surname": "Medina",
+            "maternal_surname": "Mendoza",
+            "date_of_birth": "1987-05-02",
+            "gender": "Femenino"
+        },
+        "per00023": {
+            "ci": "89648009",
+            "names": "Jamir Jacinto",
+            "paternal_surname": "Osinski",
+            "maternal_surname": "Walker",
+            "date_of_birth": "1973-02-25",
+            "gender": "Masculino"
+        },
+        "per00024": {
+            "ci": "767665542",
+            "names": "Anahí Lucia",
+            "paternal_surname": "Valencia",
+            "maternal_surname": "Torrez",
+            "date_of_birth": "1995-05-28",
+            "gender": "Femenino"
+        },
+        "per00025": {
+            "ci": "703220331",
+            "names": "Orlando Gabriel",
+            "paternal_surname": "Montes",
+            "maternal_surname": "Aguilar",
+            "date_of_birth": "1982-09-21",
+            "gender": "Masculino"
+        },
+        "per00026": {
+            "ci": "246852625",
+            "names": "Cecilia Agustina",
+            "paternal_surname": "Hernandez",
+            "maternal_surname": "Romero",
+            "date_of_birth": "1971-07-31",
+            "gender": "Femenino"
+        },
+        "per00027": {
+            "ci": "852328210",
+            "names": "Ramiro Rodrigo",
+            "paternal_surname": "Sarmiento",
+            "maternal_surname": "Solares",
+            "date_of_birth": "1983-06-19",
+            "gender": "Masculino"
+        },
+        "per00028": {
+            "ci": "251884888",
+            "names": "Clementina Andrea",
+            "paternal_surname": "Santander",
+            "maternal_surname": "Jimenez",
+            "date_of_birth": "1980-08-19",
+            "gender": "Femenino"
+        },
+        "per00029": {
+            "ci": "239972665",
+            "names": "Ariel Jesús",
+            "paternal_surname": "Valdibieso",
+            "maternal_surname": "Contreras",
+            "date_of_birth": "1994-01-25",
+            "gender": "Masculino"
+        },
+        "per00030": {
+            "ci": "720071044",
+            "names": "Horacio Leonel",
+            "paternal_surname": "Laime",
+            "maternal_surname": "Oropeza",
+            "date_of_birth": "1988-09-08",
+            "gender": "Masculino"
+        },
+        "per00031": {
+            "ci": "210140525",
+            "names": "Ernesto Nahuel",
+            "paternal_surname": "Sierra",
+            "maternal_surname": "Panoso",
+            "date_of_birth": "1993-12-23",
+            "gender": "Masculino"
+        },
+        "per00032": {
+            "ci": "729265334",
+            "names": "Gustavo Miguel",
+            "paternal_surname": "Zepita",
+            "maternal_surname": "Calle",
+            "date_of_birth": "1973-03-02",
+            "gender": "Masculino"
+        },
+        "per00033": {
+            "ci": "763092210",
+            "names": "Estefania",
+            "paternal_surname": "Villegas",
+            "maternal_surname": "Mora",
+            "date_of_birth": "1980-06-23",
+            "gender": "Femenino"
+        },
+        "per00034": {
+            "ci": "729265334",
+            "names": "José Luis",
+            "paternal_surname": "Laredo",
+            "maternal_surname": "Pinto",
+            "date_of_birth": "1984-12-07",
+            "gender": "Masculino"
+        },
+        "per00035": {
+            "ci": "328750909",
+            "names": "David Carlos",
+            "paternal_surname": "Huerta",
+            "maternal_surname": "Quintana",
+            "date_of_birth": "1975-05-25",
+            "gender": "Masculino"
+        },
+        "per00036": {
+            "ci": "833166232",
+            "names": "Helen Julia",
+            "paternal_surname": "Morales",
+            "maternal_surname": "Tumiri",
+            "date_of_birth": "1986-11-26",
+            "gender": "Femenino"
+        },
+        "per00037": {
+            "ci": "636077518",
+            "names": "Andres Alexander",
+            "paternal_surname": "Rosales",
+            "maternal_surname": "Peña",
+            "date_of_birth": "1976-04-22",
+            "gender": "Masculino"
+        },
+        "per00038": {
+            "ci": "55006061",
+            "names": "Federico Benito",
+            "paternal_surname": "Medina",
+            "maternal_surname": "Laura",
+            "date_of_birth": "1975-08-12",
+            "gender": "Masculino"
+        },
+        "per00039": {
+            "ci": "657634989",
+            "names": "Margarita",
+            "paternal_surname": "Miguez",
+            "maternal_surname": "Fernandez",
+            "date_of_birth": "1976-10-06",
+            "gender": "Femenino"
+        },
+        "per00040": {
+            "ci": "527357252",
+            "names": "Ulises Fabio",
+            "paternal_surname": "Rios",
+            "maternal_surname": "Tancara",
+            "date_of_birth": "1977-03-16",
+            "gender": "Masculino"
+        },
+        "per00041": {
+            "ci": "614694732",
+            "names": "Jorge Cecilio",
+            "paternal_surname": "Mendoza",
+            "maternal_surname": "Remedios",
+            "date_of_birth": "1986-05-12",
+            "gender": "Masculino"
+        },
+        "per00042": {
+            "ci": "388570297",
+            "names": "Julio Gualberto",
+            "paternal_surname": "Rodriguez",
+            "maternal_surname": "Sosa",
+            "date_of_birth": "1978-06-13",
+            "gender": "Masculino"
+        },
+        "per00043": {
+            "ci": "330036616",
+            "names": "Guillermo Ivan",
+            "paternal_surname": "Yanarico",
+            "maternal_surname": "Guamán",
+            "date_of_birth": "1975-08-12",
+            "gender": "Masculino"
+        },
+        "per00044": {
+            "ci": "964750219",
+            "names": "Marcos Aurelio",
+            "paternal_surname": "Reyes",
+            "maternal_surname": "Quispe",
+            "date_of_birth": "1978-01-25",
+            "gender": "Masculino"
+        },
+        "per00045": {
+            "ci": "950982517",
+            "names": "Christina Angelica",
+            "paternal_surname": "Soria",
+            "maternal_surname": "Uriona",
+            "date_of_birth": "1971-01-27",
+            "gender": "Femenino"
+        },
+        "per00046": {
+            "ci": "852328210",
+            "names": "Ramiro Mauricio",
+            "paternal_surname": "Duval",
+            "maternal_surname": "Sarmiento",
+            "date_of_birth": "1983-06-19",
+            "gender": "Masculino"
+        },
+        "per00047": {
+            "ci": "150978803",
+            "names": "Albina Analia",
+            "paternal_surname": "Redentora",
+            "maternal_surname": "Gorena",
+            "date_of_birth": "1995-12-23",
+            "gender": "Femenino"
+        },
+        "per00048": {
+            "ci": "55006061",
+            "names": "Dimitrio",
+            "paternal_surname": "Echalar",
+            "maternal_surname": "Quinteros",
+            "date_of_birth": "1977-06-14",
+            "gender": "Masculino"
+        },
+        "per00049": {
+            "ci": "657634989",
+            "names": "Selma Hortencia",
+            "paternal_surname": "Arambúla",
+            "maternal_surname": "Nicasio",
+            "date_of_birth": "1996-10-06",
+            "gender": "Femenino"
+        },
+        "per00050": {
+            "ci": "335355249",
+            "names": "Ariel Yesenia",
+            "paternal_surname": "Lescano",
+            "maternal_surname": "Nina",
+            "date_of_birth": "1992-05-26",
+            "gender": "Femenino"
+        },
+        "per00051": {
+            "ci": "685399455",
+            "names": "Maya",
+            "paternal_surname": "Soria",
+            "maternal_surname": "Soto",
+            "date_of_birth": "1992-10-12",
+            "gender": "Femenino"
+        },
+        "per00052": {
+            "ci": "884167007",
+            "names": "Adalberto Rodrigo",
+            "paternal_surname": "Bustamante",
+            "maternal_surname": "Bueno",
+            "date_of_birth": "1977-04-29",
+            "gender": "Masculino"
+        },
+        "per00053": {
+            "ci": "122435460",
+            "names": "Michael Elias",
+            "paternal_surname": "Hurtado",
+            "maternal_surname": "Murcia",
+            "date_of_birth": "1999-08-07",
+            "gender": "Masculino"
+        },
+        "per00054": {
+            "ci": "427877469",
+            "names": "Naomi Vilma",
+            "paternal_surname": "Salazar",
+            "maternal_surname": "Rodas",
+            "date_of_birth": "1974-04-17",
+            "gender": "Femenino"
+        },
+        "per00055": {
+            "ci": "527357252",
+            "names": "Alexys Brandon",
+            "paternal_surname": "Mamani",
+            "maternal_surname": "Olivos",
+            "date_of_birth": "2001-01-05",
+            "gender": "Masculino"
+        },
+        "per00056": {
+            "ci": "542254517",
+            "names": "Aria Anabelle",
+            "paternal_surname": "Gonzales",
+            "maternal_surname": "Zurita",
+            "date_of_birth": "1973-11-05",
+            "gender": "Femenino"
+        },
+        "per00057": {
+            "ci": "454158427",
+            "names": "Lucas Sebastián",
+            "paternal_surname": "Dorsales",
+            "maternal_surname": "Herrera",
+            "date_of_birth": "1980-09-13",
+            "gender": "Masculino"
+        },
+        "per00058": {
+            "ci": "935250441",
+            "names": "Julio Jaguer",
+            "paternal_surname": "Iruste",
+            "maternal_surname": "Judas",
+            "date_of_birth": "1970-03-03",
+            "gender": "Masculino"
+        },
+        "per00059": {
+            "ci": "957559349",
+            "names": "Jose Jorge",
+            "paternal_surname": "Damina",
+            "maternal_surname": "Reyes",
+            "date_of_birth": "1998-06-11",
+            "gender": "Masculino"
+        },
+        "per00060": {
+            "ci": "386815194",
+            "names": "Denis Leonel",
+            "paternal_surname": "Pinedo",
+            "maternal_surname": "Torrez",
+            "date_of_birth": "1996-01-19",
+            "gender": "Masculino"
+        },
+        "per00061": {
+            "ci": "562145928",
+            "names": "Reyna Susana",
+            "paternal_surname": "Llanos",
+            "maternal_surname": "Oropeza",
+            "date_of_birth": "1989-09-04",
+            "gender": "Femenino"
+        },
+        "per00062": {
+            "ci": "845388893",
+            "names": "Gustavo Andres",
+            "paternal_surname": "Figueredo",
+            "maternal_surname": "Fonseca",
+            "date_of_birth": "1971-07-13",
+            "gender": "Masculino"
+        },
+        "per00063": {
+            "ci": "1609741",
+            "names": "Dario Eric",
+            "paternal_surname": "Abaroa",
+            "maternal_surname": "Carrasco",
+            "date_of_birth": "1974-10-16",
+            "gender": "Masculino"
+        },
+        "per00064": {
+            "ci": "334643381",
+            "names": "Ivonne",
+            "paternal_surname": "Rocha",
+            "maternal_surname": "Dávalos",
+            "date_of_birth": "1991-02-14",
+            "gender": "Femenino"
+        },
+        "per00065": {
+            "ci": "587578866",
+            "names": "Juana Ines",
+            "paternal_surname": "Solares",
+            "maternal_surname": "Peredo",
+            "date_of_birth": "1973-03-23",
+            "gender": "Femenino"
+        },
+        "per00066": {
+            "ci": "60354827",
+            "names": "Eugenia Hilda",
+            "paternal_surname": "Baez",
+            "maternal_surname": "Robles",
+            "date_of_birth": "1980-10-09",
+            "gender": "Masculino"
+        },
+        "per00067": {
+            "ci": "47358785",
+            "names": "Greyson Daniel",
+            "paternal_surname": "Soruco",
+            "maternal_surname": "Lerner",
+            "date_of_birth": "1999-03-31",
+            "gender": "Masculino"
+        },
+        "per00068": {
+            "ci": "614694732",
+            "names": "Jorge Erlan",
+            "paternal_surname": "Arnauz",
+            "maternal_surname": "Ruiz",
+            "date_of_birth": "1986-05-12",
+            "gender": "Masculino"
+        },
+        "per00069": {
+            "ci": "825181422",
+            "names": "Roger Carlos",
+            "paternal_surname": "Quiroga",
+            "maternal_surname": "Pinto",
+            "date_of_birth": "1973-06-30",
+            "gender": "Masculino"
+        }
+    },
+    "teachers": {
+        "doc01": {
+            "id_per": "per00001",
+            "item": "611654999",
+            "professions": [
+                "Contador Público",
+                "Ingeniero de Sistemas"
+            ],
+            "academic_title": "Magíster"
+        },
+        "doc02": {
+            "id_per": "per00002",
+            "item": "3232549653",
+            "professions": [
+                "Contador Público"
+            ],
+            "academic_title": "Licenciado"
+        },
+        "doc03": {
+            "id_per": "per00003",
+            "item": "534656753",
+            "professions": [
+                "Administrador Financiero"
+            ],
+            "academic_title": "Doctor"
+        },
+        "doc04": {
+            "id_per": "per00004",
+            "item": "546343215",
+            "professions": [
+                "Economista"
+            ],
+            "academic_title": "Licenciado"
+        },
+        "doc05": {
+            "id_per": "per00005",
+            "item": "976531403",
+            "professions": [
+                "Contador Público",
+                "Administrador Financiero"
+            ],
+            "academic_title": "Doctor"
+        },
+        "doc06": {
+            "id_per": "per00006",
+            "item": "865231462",
+            "professions": [
+                "Ingeniero Comercial",
+                "Contador Público"
+            ],
+            "academic_title": "Licenciado"
+        },
+        "doc07": {
+            "id_per": "per00007",
+            "item": "867542354",
+            "professions": [
+                "Contador Público"
+            ],
+            "academic_title": "Licenciado"
+        },
+        "doc08": {
+            "id_per": "per00022",
+            "item": "654232264",
+            "professions": [
+                "Sociólogo",
+                "Profesor de Ciencias Sociales"
+            ],
+            "academic_title": "Licenciado"
+        },
+        "doc09": {
+            "id_per": "per00023",
+            "item": "859392354",
+            "professions": [
+                "Contador Público"
+            ],
+            "academic_title": "Licenciado"
+        },
+        "doc10": {
+            "id_per": "per00024",
+            "item": "5453223112",
+            "professions": [
+                "Administrador Financiero",
+                "Contador Público"
+            ],
+            "academic_title": "Licenciado"
+        },
+        "doc11": {
+            "id_per": "per00025",
+            "item": "7643234564",
+            "professions": [
+                "Contador Público"
+            ],
+            "academic_title": "Magíster"
+        },
+        "doc12": {
+            "id_per": "per00026",
+            "item": "6563432434",
+            "professions": [
+                "Sistemas Informáticos"
+            ],
+            "academic_title": "Licenciado"
+        },
+        "doc13": {
+            "id_per": "per00027",
+            "item": "1247867546",
+            "professions": [
+                "Sistemas Informáticos"
+            ],
+            "academic_title": "Licenciado"
+        },
+        "doc14": {
+            "id_per": "per00028",
+            "item": "8634534123",
+            "professions": [
+                "Profesor de Matemáticas"
+            ],
+            "academic_title": "Licenciado"
+        },
+        "doc15": {
+            "id_per": "per00029",
+            "item": "6641231235",
+            "professions": [
+                "Contador Público",
+                "Ingeniero Comercial"
+            ],
+            "academic_title": "Doctor"
+        },
+        "doc16": {
+            "id_per": "per00030",
+            "item": "7665633134",
+            "professions": [
+                "Administrador Financiero"
+            ],
+            "academic_title": "Licenciado"
+        },
+        "doc17": {
+            "id_per": "per00031",
+            "item": "6764531234",
+            "professions": [
+                "Ingeniero de Sistemas"
+            ],
+            "academic_title": "Magíster"
+        },
+        "doc18": {
+            "id_per": "per00032",
+            "item": "5412765545",
+            "professions": [
+                "Ingeniero de Sistemas"
+            ],
+            "academic_title": "Licenciado"
+        },
+        "doc19": {
+            "id_per": "per00033",
+            "item": "4323467888",
+            "professions": [
+                "Ingeniero de Sistemas",
+                "Contador Público"
+            ],
+            "academic_title": "Licenciado"
+        },
+        "doc20": {
+            "id_per": "per00034",
+            "item": "1115434322",
+            "professions": [
+                "Contador Público"
+            ],
+            "academic_title": "Magíster"
+        },
+        "doc21": {
+            "id_per": "per00035",
+            "item": "8131812312",
+            "professions": [
+                "Administrador Financiero"
+            ],
+            "academic_title": "Licenciado"
+        },
+        "doc22": {
+            "id_per": "per00036",
+            "item": "6653433322",
+            "professions": [
+                "Economista"
+            ],
+            "academic_title": "Licenciado"
+        },
+        "doc23": {
+            "id_per": "per00037",
+            "item": "7564544443",
+            "professions": [
+                "Contador Público"
+            ],
+            "academic_title": "Licenciado"
+        },
+        "doc24": {
+            "id_per": "per00038",
+            "item": "5444443312",
+            "professions": [
+                "Contador Público",
+                "Administrador Financiero"
+            ],
+            "academic_title": "Licenciado"
+        },
+        "doc25": {
+            "id_per": "per00039",
+            "item": "1545233333",
+            "professions": [
+                "Contador Público"
+            ],
+            "academic_title": "Doctor"
+        },
+        "doc26": {
+            "id_per": "per00040",
+            "item": "5443431222",
+            "professions": [
+                "Contador Público"
+            ],
+            "academic_title": "Licenciado"
+        },
+        "doc27": {
+            "id_per": "per00041",
+            "item": "5431111234",
+            "professions": [
+                "Contador Público",
+                "Economista"
+            ],
+            "academic_title": "Licenciado"
+        }
+    },
+    "students": {
+        "est08": {
+            "id_per": "per00008",
+            "is_enabled": true
+        },
+        "est09": {
+            "id_per": "per00009",
+            "is_enabled": true
+        },
+        "est10": {
+            "id_per": "per00010",
+            "is_enabled": true
+        },
+        "est11": {
+            "id_per": "per00011",
+            "is_enabled": true
+        },
+        "est12": {
+            "id_per": "per00012",
+            "is_enabled": true
+        },
+        "est13": {
+            "id_per": "per00013",
+            "is_enabled": true
+        },
+        "est14": {
+            "id_per": "per00014",
+            "is_enabled": true
+        },
+        "est15": {
+            "id_per": "per00015",
+            "is_enabled": true
+        },
+        "est16": {
+            "id_per": "per00016",
+            "is_enabled": true
+        },
+        "est17": {
+            "id_per": "per00017",
+            "is_enabled": true
+        },
+        "est18": {
+            "id_per": "per00018",
+            "is_enabled": true
+        },
+        "est19": {
+            "id_per": "per00019",
+            "is_enabled": true
+        },
+        "est20": {
+            "id_per": "per00020",
+            "is_enabled": true
+        },
+        "est21": {
+            "id_per": "per00021",
+            "is_enabled": true
+        },
+        "est22": {
+            "id_per": "per00042",
+            "is_enabled": true
+        },
+        "est23": {
+            "id_per": "per00043",
+            "is_enabled": true
+        },
+        "est24": {
+            "id_per": "per00044",
+            "is_enabled": true
+        },
+        "est25": {
+            "id_per": "per00045",
+            "is_enabled": true
+        },
+        "est26": {
+            "id_per": "per00046",
+            "is_enabled": true
+        },
+        "est27": {
+            "id_per": "per00047",
+            "is_enabled": true
+        },
+        "est28": {
+            "id_per": "per00048",
+            "is_enabled": true
+        },
+        "est29": {
+            "id_per": "per00049",
+            "is_enabled": true
+        },
+        "est30": {
+            "id_per": "per00050",
+            "is_enabled": true
+        },
+        "est31": {
+            "id_per": "per00051",
+            "is_enabled": true
+        },
+        "est32": {
+            "id_per": "per00052",
+            "is_enabled": true
+        },
+        "est33": {
+            "id_per": "per00053",
+            "is_enabled": true
+        },
+        "est34": {
+            "id_per": "per00054",
+            "is_enabled": true
+        },
+        "est35": {
+            "id_per": "per00055",
+            "is_enabled": true
+        },
+        "est36": {
+            "id_per": "per00056",
+            "is_enabled": true
+        },
+        "est37": {
+            "id_per": "per00057",
+            "is_enabled": true
+        },
+        "est38": {
+            "id_per": "per00058",
+            "is_enabled": true
+        },
+        "est39": {
+            "id_per": "per00059",
+            "is_enabled": true
+        },
+        "est40": {
+            "id_per": "per00060",
+            "is_enabled": true
+        },
+        "est41": {
+            "id_per": "per00061",
+            "is_enabled": true
+        },
+        "est42": {
+            "id_per": "per00062",
+            "is_enabled": true
+        },
+        "est43": {
+            "id_per": "per00063",
+            "is_enabled": true
+        },
+        "est44": {
+            "id_per": "per00064",
+            "is_enabled": true
+        },
+        "est45": {
+            "id_per": "per00065",
+            "is_enabled": true
+        },
+        "est46": {
+            "id_per": "per00066",
+            "is_enabled": true
+        },
+        "est47": {
+            "id_per": "per00067",
+            "is_enabled": true
+        },
+        "est48": {
+            "id_per": "per00068",
+            "is_enabled": true
+        },
+        "est49": {
+            "id_per": "per00069",
+            "is_enabled": true
+        }
+    },
+    "criteria": {
+        "cri01": [{
+                "value": "1",
+                "text": "Altamente en desacuerdo"
+            },
+            {
+                "value": "2",
+                "text": "En desacuerdo"
+            },
+            {
+                "value": "3",
+                "text": "Indiferente"
+            },
+            {
+                "value": "4",
+                "text": "De acuerdo"
+            },
+            {
+                "value": "5",
+                "text": "Totalmente de acuerdo"
+            }
+        ],
+        "cri02": [{
+                "value": "1",
+                "text": "Deficiente"
+            },
+            {
+                "value": "2",
+                "text": "Regular"
+            },
+            {
+                "value": "3",
+                "text": "Bueno"
+            },
+            {
+                "value": "4",
+                "text": "Muy bueno"
+            },
+            {
+                "value": "5",
+                "text": "Excelente"
+            }
+        ]
+    },
+    "indicators": {
+        "ind001": {
+            "value": "pregunta1",
+            "text": "Explica de manera clara los contenidos de la asignatura."
+        },
+        "ind002": {
+            "value": "pregunta2",
+            "text": "Relaciona los contenidos de la asignatura con los contenidos de otras."
+        },
+        "ind003": {
+            "value": "pregunta3",
+            "text": "Resuelve las dudas relacionadas con los contenidos de la asignatura."
+        },
+        "ind004": {
+            "value": "pregunta4",
+            "text": "Cumple con los acuerdos establecidos al inicio de la asignatura."
+        },
+        "ind005": {
+            "value": "pregunta5",
+            "text": "Durante el curso establece las estrategias adecuadas necesarias para lograr el aprendizaje deseado."
+        }
+    },
+    "evaluations": {
+        "eva01": {
+            "code": "EVA-01",
+            "name": "Evaluación de Desempeño 1/2019.",
+            "description": "Todos los puntajes compuestos a partir de las respuestas se obtendrán promediando las respuestas del área correspondiente.",
+            "areas": {
+                "are01": {
+                    "name": "are01",
+                    "title": "Dominio de la asignatura.",
+                    "description": "Domina los principios, fundamentos y conceptos de la disciplina que imparte en el curso.",
+                    "id_cri": "cri02",
+                    "ids_ind": ["ind001", "ind002", "ind003"]
+                },
+                "are02": {
+                    "name": "are02",
+                    "title": "Planificación del curso.",
+                    "description": "Planifica con precisión y detalle el proceso de aprendizaje, con base en la naturaleza de los contenidos, las características de los students y el perfil del curso y de la carrera.",
+                    "id_cri": "cri02",
+                    "ids_ind": ["ind004", "ind005"]
+                }
+            }
+        },
+        "eva02": {
+            "code": "EVA-02",
+            "name": "Evaluación de Desempeño 2/2019.",
+            "description": "Todos los puntajes compuestos a partir de las respuestas se obtendrán promediando las respuestas del área correspondiente.",
+            "areas": {
+                "are03": {
+                    "name": "are03",
+                    "title": "Dominio de la asignatura.",
+                    "description": "Domina los principios, fundamentos y conceptos de la disciplina que imparte en el curso.",
+                    "id_cri": "cri01",
+                    "ids_ind": ["ind001", "ind002", "ind003"]
+                }
+            }
+        }
+    }
+}

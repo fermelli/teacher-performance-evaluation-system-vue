@@ -1,0 +1,120 @@
+.navigation-drawer-scrim {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 24;
+    background-color: rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}
+
+.navigation-drawer-container {
+    position: relative;
+    width: 256px;
+    height: 100vh;
+    background-color: #FFFFFF;
+    cursor: default;
+    z-index: 32;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+}
+
+
+@media (min-width: 768px) {
+    .navigation-drawer-scrim {
+        width: 65px;
+        background: none;
+        z-index: 4;
+        transition: width 0.5s ease-in-out;
+    }
+
+    .navigation-drawer-scrim.contract {
+        width: 65px;
+    }
+
+    .navigation-drawer-scrim.expand {
+        width: 256px;
+    }
+
+    .navigation-drawer-container {
+        width: 100%;
+        max-width: 256px;
+    }
+}
+
+.navigation-drawer-container.open {
+    -webkit-animation-name: slideInLeft;
+    animation-name: slideInLeft;
+}
+
+.navigation-drawer-container.close {
+    -webkit-animation-name: slideOutLeft;
+    animation-name: slideOutLeft;
+}
+
+@keyframes slideInLeft {
+    from {
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+    }
+
+    to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes slideOutLeft {
+    from {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+
+    to {
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+    }
+}
+
+.navigation-drawer-header {
+    height: 60px;
+    padding: 0px 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.btn-back {
+    width: 36px;
+    height: 36px;
+    border: 0;
+    padding: 0;
+    padding: 6px 0px;
+    background: none;
+    cursor: pointer;
+    border-radius: 50%;
+    text-align: center;
+    outline: none;
+}
+
+.btn-back:hover,
+.btn-back :focus {
+    background: rgba(0, 0, 0, 0.1)
+}
+
+.material-icons {
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.navigation-drawer-body {
+    height: calc(100vh - 60px);
+    overflow-y: auto;
+    padding: 12px;
+}

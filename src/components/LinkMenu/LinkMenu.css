@@ -1,0 +1,40 @@
+.link {
+    height: 40px;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+    .link.small-link {
+        justify-content: center;
+    }
+}
+
+.link:hover,
+.link:focus {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+.router-link-exact-active,
+.router-link-exact-active:focus {
+    background: rgba(123, 31, 162, 0.2);
+}
+
+.router-link-exact-active>.material-icons,
+.router-link-exact-active>.name-link {
+    color: #7B1FA2;
+}
+
+.name-link {
+    margin-left: 24px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.material-icons {
+    color: rgba(0, 0, 0, 0.4);
+}

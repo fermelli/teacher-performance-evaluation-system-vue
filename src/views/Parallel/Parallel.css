@@ -1,0 +1,46 @@
+.title,
+.subtitle {
+    margin: 8px 0px;
+}
+
+.title {
+    font-size: 1.5rem;
+}
+
+.subtitle {
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.chip {
+    font-size: 1.25rem;
+    display: inline-block;
+    text-align: center;
+    padding: 5px 15px;
+    border-radius: 15px;
+    font-weight: 200;
+    color: #FFFFFF;
+    background: rgb(18, 99, 131);
+}
+
+.link {
+    text-decoration: none;
+    color: #000000;
+    padding: 5px;
+}
+
+.router-link-exact-active {
+    background: rgba(146, 143, 143, 0.1)
+}
+
+.link:hover:not(.router-link-exact-active) {
+    background: rgba(146, 143, 143, 0.1)
+}
+
+@media (max-width: 576px) {
+
+    .link,
+    .font {
+        font-size: 0.875rem;
+    }
+}

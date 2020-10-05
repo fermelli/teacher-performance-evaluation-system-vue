@@ -1,0 +1,36 @@
+.form-control label {
+    position: relative;
+    display: inline-block;
+    height: 20px;
+    top: 12px;
+    left: 10px;
+    padding: 0px 5px;
+    background: #FFFFFF;
+    font-size: 0.875rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.form-control label.focus {
+    color: #7B1FA2;
+}
+
+.form-control div select {
+    appearance: none;
+    width: 100%;
+    height: 46px;
+    outline: none;
+    font-size: 1rem;
+    padding: 13px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-control div select::-ms-expand {
+    display: none;
+}
+
+.form-control div select.focus {
+    border: 2px solid #7B1FA2;
+    margin: 0;
+}

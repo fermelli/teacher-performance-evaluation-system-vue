@@ -1,0 +1,92 @@
+.card {
+    position: relative;
+    border-radius: 5px;
+    z-index: 4;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3);
+}
+
+.card:hover {
+    z-index: 8;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+
+.card-head {
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn-expand {
+    outline: none;
+    cursor: pointer;
+    padding: 5px;
+    height: 34px;
+    width: 34px;
+    border: 0;
+    border-radius: 50%;
+    margin-right: 15px;
+    background: none;
+}
+
+.btn-expand:hover,
+.btn-expand:focus {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+h1.card-title {
+    margin: 0;
+    padding: 10px 15px;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.container-table {
+    min-height: 161px;
+}
+
+.container-expand {
+    display: flex;
+    height: 25px;
+    justify-content: flex-end;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table thead tr th {
+    height: 50px;
+}
+
+.table tr td,
+.table tr th {
+    text-align: center;
+    padding: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.btn {
+    border: 0;
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+    background: none;
+    cursor: pointer;
+}
+
+.btn-open-in-new {
+    font-weight: bold;
+    transition: background 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+}
+
+.btn-open-in-new:hover,
+.btn-open-in-new:focus {
+    background: rgba(161, 159, 159, 0.1);
+}

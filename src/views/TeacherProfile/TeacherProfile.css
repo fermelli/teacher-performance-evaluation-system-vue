@@ -1,0 +1,13 @@
+.container-title-profile {
+    height: 80px;
+    background: rgba(0, 0, 0, 0.2);
+    margin: 10px 0px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.title-profile {
+    margin: 0px;
+    padding: 0px 15px;
+}
