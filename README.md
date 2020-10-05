@@ -82,8 +82,8 @@ Como servicio de backend
 
 ## Pendientes
 
+- [ ] **Refactorizar**.
 - [ ] Cambiar la libreria [ Survey.js](https://surveyjs.io/) por una [propia](https://github.com/fermelli/survey).
-- [ ] Refactorizar Componentes (Mixins).
 - [ ] Eliminar CSS repetitivo o cambiar a un preprocesador.
 - [ ] Modularizar el estado (Vuex) y el usó de MapState, MapActions, etc.
 - [ ] Cambiar el Servicio de backend por una API REST en Laravel.
